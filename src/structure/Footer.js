@@ -26,7 +26,7 @@ const Footer = () => {
           </li>
           <li title="Download CV">
             <a
-              href="./../../public/resources/DelyanaIvanovaCV - EN.doc"
+              href="./../../public/resources/me/DelyanaIvanovaCV - EN.doc"
               download
               rel="noopener noreferrer"
             >

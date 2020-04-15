@@ -1,3 +1,50 @@
 div {
   color: #050;
 }
+.About img {
+  border-radius: 50%;
+}
+
+.About .me-description {
+  font-size: 25px;
+  padding: 20px;
+}
+.Projects {
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px 0 30px;
+
+  box-sizing: border-box;
+}
+
+.Projects ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.Contact input {
+  width: 170px;
+  height: 30px;
+  margin: 15px;
+}
+.Contact input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1;
+  margin-left: 10px;
+}
+.Contact textarea {
+  margin: 15px;
+  width: 600px;
+}
+
+.Contact .send-button {
+  background-color: #050;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.Contact .send-button a {
+  color: whitesmoke;
+  text-decoration: none;
+}
