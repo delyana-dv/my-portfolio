@@ -1,0 +1,21 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-footer li {
+  padding: 10px;
+}
+
+.menu-footer a {
+  text-decoration: none;
+}
+
+.menu-footer a:visited {
+  color: #050;
+}
