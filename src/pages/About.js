@@ -5,7 +5,10 @@ const About = () => {
   return (
     <div className="About">
       <p>about me</p>
-      <img src="../../resources/me/didi-me.jpeg" alt="this is me :)"></img>
+      <img
+        src="../../public/resources/me/didi-me.jpeg"
+        alt="this is me :)"
+      ></img>
 
       <div className="me-description">
         <p>

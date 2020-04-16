@@ -2,8 +2,8 @@ import React from "react";
 import "./Position.css";
 const Position = props => {
   const { id, role, client, from, to, technologies } = props.item;
-  const clientLogo = `../../public/resources/logos/companies/${client.name}.png`;
-  const technologyLogoPath = `../../public/resources/logos/technologies/`;
+  const clientLogo = `../../resources/logos/companies/${client.name}.png`;
+  const technologyLogoPath = `../../resources/logos/technologies/`;
 
   return (
     <>

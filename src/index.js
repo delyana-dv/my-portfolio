@@ -4,6 +4,7 @@ import "../src//styles/index.css";
 import App from "./structure/App";
 import Header from "./structure/Header";
 import Footer from "./structure/Footer";
+
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(

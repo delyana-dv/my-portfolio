@@ -15,7 +15,6 @@ const Header = () => {
   return (
     <nav className="Header">
       <div className="logo">Delyana Ivanova</div>
-
       <ul className="menu hide" id="itemMenu">
         <li>
           <a href="/">Home</a>
