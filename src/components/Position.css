@@ -16,3 +16,9 @@
   width: 40px;
   height: 40px;
 }
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

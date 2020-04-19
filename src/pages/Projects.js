@@ -32,13 +32,11 @@ const Projects = () => {
   return (
     <div className="Projects">
       <p>my latest projects:</p>
-      <ul>
-        <li>
-          {positions.map(value => (
-            <Position item={value} />
-          ))}
-        </li>
-      </ul>
+      <div className="projectsContainer">
+        {positions.map(value => (
+          <Position item={value} />
+        ))}
+      </div>
     </div>
   );
 };
