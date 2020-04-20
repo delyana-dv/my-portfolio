@@ -1,8 +1,9 @@
-.Position {
+.detail-data {
   display: flex;
+}
+.Position {
   font-size: 14px;
   border: solid 1px;
-
   margin: 20px;
   padding: 20px;
 }
@@ -21,4 +22,13 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+
+.technologies {
+  display: flex;
+  align-items: center;
+}
+
+.detail-data {
+  margin-top: 30px;
 }

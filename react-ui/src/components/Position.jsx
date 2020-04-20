@@ -7,32 +7,35 @@ const Position = props => {
 
   return (
     <>
-      <div className="Position" id={id}>
+      <div className="Position">
         <div className="basic-data">
           <p className="role">{role}</p>
           <p>
             {from} - {to ? to : "present"}
           </p>
+        </div>
+        <div className="detail-data" id={id}>
           <div className="client">
             <a href={client.website} target="_blank" rel="noopener noreferrer">
               <img src={clientLogo} alt={client.name} />
             </a>
           </div>
-        </div>
 
-        <div className="technologies">
-          <ul>
-            {technologies.map(value => {
-              const logo = technologyLogoPath + value + ".png";
-              return (
-                <li>
-                  <img className="technology-logo" src={logo} />
-                </li>
-              );
-            })}
+          <div className="technologies">
+            <ul>
+              {technologies.map(value => {
+                const logo = technologyLogoPath + value + ".svg";
+                return (
+                  <li>
+                    {value}
+                    {/* <img className="technology-logo" src={logo} /> */}
+                  </li>
+                );
+              })}
 
-            {/* {technologies ? technologies.map(value => <li>f</li>) : <li>-</li>} */}
-          </ul>
+              {/* {technologies ? technologies.map(value => <li>f</li>) : <li>-</li>} */}
+            </ul>
+          </div>
         </div>
       </div>
     </>
